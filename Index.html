@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Wallpoet&display=swap"
+      rel="stylesheet"
+    />
+    <link href="/Styling.css" rel="stylesheet" />
+  </head>
+  <body>
+    
+    <video id="day-video" class="bg-video" autoplay muted loop playsinline>
+      <source src="/Sunny-day.mp4" type="video/mp4" />
+    </video>
+
+    <video id="night-video" class="bg-video" autoplay muted loop playsinline>
+      <source src="/night-sky2.mp4" type="video/mp4" />
+    </video>
+
+    <div class="container">
+      <div class="lighting-container">
+        <label class="theme-switch">
+          <input type="checkbox" id="theme-toggle" />
+          <span class="slider round"></span>
+        </label>
+      </div>
+
+      <div id="date">Friday, 26 September, 2025</div>
+      <div id="time">00:00:00 PM</div>
+      <div id="statement">Sun’s shining ☀️</div>
+    </div>
+
+    <script src="/Index.js"></script>
+  </body>
+</html>
